@@ -4,12 +4,16 @@
   "description": "A sample of what the layout of a Node project should look like",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha --recursive"
   },
   "author": "Jackson Bailey",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/JacksonBailey/node-layout-example.git"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
   }
 }
