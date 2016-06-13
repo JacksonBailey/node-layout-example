@@ -1,0 +1,11 @@
+{
+  "name": "@jackson-bailey/node-layout-example",
+  "version": "0.1.0",
+  "description": "A sample of what the layout of a Node project should look like",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jackson Bailey",
+  "license": "MIT"
+}
